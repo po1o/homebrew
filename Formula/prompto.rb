@@ -2,25 +2,25 @@ class Prompto < Formula
   desc "Prompt renderer with streaming daemon support"
   homepage "https://github.com/po1o/prompto"
   license "MIT"
-  version "2"
+  version "3"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/po1o/prompto/releases/download/v2/prompto-darwin-arm64"
-      sha256 "edfe23be89590f0a2b7bf12ce4b5ef0806965896df6a2eeab49179882b601264"
+      url "https://github.com/po1o/prompto/releases/download/v3/prompto-darwin-arm64"
+      sha256 "8b435ca37daa16ca0e79b636fc4bc56621e12d7317e3ebb478a4e962923669dd"
     else
-      url "https://github.com/po1o/prompto/releases/download/v2/prompto-darwin-amd64"
-      sha256 "b0f9966a9bc56e698eab9012b5dc241609ea9ba076105460d7b91c669bd06109"
+      url "https://github.com/po1o/prompto/releases/download/v3/prompto-darwin-amd64"
+      sha256 "c0eef71c42b8f831d0e96a967fc0b508b793d3477571fa2733fb033140e4569e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/po1o/prompto/releases/download/v2/prompto-linux-arm64"
-      sha256 "8164eee17259d72dd51f13674568e95e5cd446c50ab902d15ca1ffc01ecfc46e"
+      url "https://github.com/po1o/prompto/releases/download/v3/prompto-linux-arm64"
+      sha256 "1c2ea832a7832f28cdb7890018284006d08e40bfdd17335d4925883cc2072513"
     else
-      url "https://github.com/po1o/prompto/releases/download/v2/prompto-linux-amd64"
-      sha256 "8b5daafd574686763b016f48dd58e63c4c0b115f67d1f1b3bc24575968da6273"
+      url "https://github.com/po1o/prompto/releases/download/v3/prompto-linux-amd64"
+      sha256 "5cb991c1266e5c82245fa9a6457654ce2137c6797150dd88ef0d0b64277e02e0"
     end
   end
 
